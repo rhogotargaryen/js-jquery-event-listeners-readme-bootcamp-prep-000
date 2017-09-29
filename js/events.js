@@ -5,7 +5,7 @@ pressIt();
 submitIt();
 });
 
-function submitIt() {
+function getIt() {
   $("p").on("click", function() {
     alert("Hey!");
   })
@@ -25,7 +25,7 @@ function pressIt() {
   })
 }
 
-function sumbitIt() {
+function submitIt() {
   $("form:last").on("submit", function() {
     alert ("Your form will be submitted!");
   })
