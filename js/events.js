@@ -3,7 +3,7 @@
 $(document).ready(function(){
 
 getIt();
-
+}
 
 function getIt() {
   $("p").on("click", function() {
@@ -11,8 +11,4 @@ function getIt() {
   })
 }
 
-function frameIt() {
-  $("img").on("load", function(), {
-    $("img").className = "tasty";
-  })
-}
+
