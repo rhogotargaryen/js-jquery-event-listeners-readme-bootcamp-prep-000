@@ -5,7 +5,7 @@ pressIt();
 submitIt();
 });
 
-function getIt() {
+function submitIt() {
   $("p").on("click", function() {
     alert("Hey!");
   })
