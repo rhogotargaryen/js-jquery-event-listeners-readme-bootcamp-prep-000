@@ -14,6 +14,6 @@ function getIt() {
 
 function frameIt() {
   $("img").on("load", function(), {
-    $("img").style.bordercolor = "red";
+    $("img").style.border-color = "red";
   })
 }
