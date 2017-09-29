@@ -10,5 +10,3 @@ function getIt() {
     alert("Hey!");
   })
 }
-
-
