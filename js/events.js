@@ -1,6 +1,7 @@
 $(document).ready(function(){
 frameIt();
 getIt();
+pressIt();
 });
 
 function getIt() {
