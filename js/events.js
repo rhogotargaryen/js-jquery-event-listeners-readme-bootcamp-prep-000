@@ -1,9 +1,6 @@
-//define functions here
-
 $(document).ready(function(){
 
-window.frameIt();
-window.getIt();
+getIt();
 });
 
 function getIt () {
