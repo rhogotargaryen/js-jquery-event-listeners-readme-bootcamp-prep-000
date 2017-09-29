@@ -14,3 +14,11 @@ function frameIt() {
     $("img").addClass("tasty");
   })
 }
+
+function pressIt() {
+  $("#typing").on("keydown", function(e) {
+    if (e.location == 71) {
+      alert("You have pressed G!");
+    }
+  })
+}
