@@ -2,7 +2,7 @@
 
 $(document).ready(function(){
 
-frameIt();
+getIt();
 });
 
 function getIt() {
