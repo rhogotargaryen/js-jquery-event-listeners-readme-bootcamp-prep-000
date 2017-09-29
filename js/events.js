@@ -2,6 +2,7 @@ $(document).ready(function(){
 frameIt();
 getIt();
 pressIt();
+submitIt();
 });
 
 function getIt() {
