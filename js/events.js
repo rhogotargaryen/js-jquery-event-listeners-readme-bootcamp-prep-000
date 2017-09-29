@@ -2,8 +2,8 @@
 
 $(document).ready(function(){
 
-frameIt();
-getIt();
+window.frameIt();
+window.getIt();
 });
 
 function getIt () {
